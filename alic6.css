@@ -1,29 +1,21 @@
-html, body {
+html,
+body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 
-  background: #660066;
-}
-
-@keyframes six {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
+  background: #ffffff;
 }
 
 div {
   position: fixed;
   top: 50%;
   left: 50%;
-  animation: 6666ms linear six forwards infinite;
 
-  color: #006600;
+  color: #000000;
 
-  font-size: 66px;
+  font-size: min(40vw, 40vh);
+  font-family: "monospace";
+
+  transform: translate(-50%, -50%);
 }
-
