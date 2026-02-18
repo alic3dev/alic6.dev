@@ -1,0 +1,25 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-background: var(--color-white);
+  --color-text: var(--color-black);
+}
+
+html,
+body {
+  background: var(--color-background);
+
+  color: var(--color-text);
+
+  font-family: monospace;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+}
